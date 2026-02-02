@@ -1,0 +1,94 @@
+{
+  "services": [
+    {
+      "id": 1,
+      "provider_id": 3,
+      "title": "Home Cleaning",
+      "description": "Full house cleaning",
+      "price": 100,
+      "category": "Cleaning",
+      "image_url": "https://via.placeholder.com/150",
+      "created_at": "2026-02-01 14:19:59"
+    },
+    {
+      "id": 2,
+      "provider_id": 2,
+      "title": "Kitchen Cleaning",
+      "description": "Deep cleaning of all kitchen surfaces, appliances, and floors.",
+      "price": 120,
+      "category": "Cleaning",
+      "image_url": "https://images.unsplash.com/photo-1556911220-e15b29be8c8f?w=600&h=400&fit=crop",
+      "created_at": "2026-02-01 14:55:51"
+    },
+    {
+      "id": 3,
+      "provider_id": 2,
+      "title": "Bathroom Cleaning",
+      "description": "Scrubbing and sanitizing of toilets, showers, tubs, and sinks.",
+      "price": 90,
+      "category": "Cleaning",
+      "image_url": "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?w=600&h=400&fit=crop",
+      "created_at": "2026-02-01 14:55:51"
+    },
+    {
+      "id": 4,
+      "provider_id": 2,
+      "title": "Plumbing",
+      "description": "Leak repairs, pipe installation, and general plumbing maintenance.",
+      "price": 150,
+      "category": "Maintenance",
+      "image_url": "https://images.unsplash.com/photo-1504148455328-c376907d081c?w=600&h=400&fit=crop",
+      "created_at": "2026-02-01 14:55:51"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "keerthi",
+      "email": "dvrajasri06@gmail.com",
+      "password": "$2b$10$Cep8J.i8w8KC9PdYE0D/iuSKOVgm5I905DrnD/GJGoU0B2Kf.rA7u",
+      "role": "customer",
+      "is_available": 0,
+      "is_onboarded": 0,
+      "phone": null,
+      "address": null,
+      "created_at": "2026-02-01 12:45:43"
+    },
+    {
+      "id": 2,
+      "name": "keerthi",
+      "email": "rajasrid.cse2024@citchennai.net",
+      "password": "$2b$10$IeWastn0jM442aEpispGw.3LltJL7h6i4AwZu76MbutWvKERusT1i",
+      "role": "provider",
+      "is_available": 0,
+      "is_onboarded": 1,
+      "phone": "9486862046",
+      "address": "chennai",
+      "created_at": "2026-02-01 12:47:42"
+    },
+    {
+      "id": 3,
+      "name": "John Provider",
+      "email": "provider@example.com",
+      "password": "$2b$10$qNm5GXvDvC0i1E3s06ciuudgLc2L1Iu.JbyOlKQ589jhokX/uy37K",
+      "role": "provider",
+      "is_available": 1,
+      "is_onboarded": 1,
+      "phone": null,
+      "address": null,
+      "created_at": "2026-02-01 14:19:59"
+    },
+    {
+      "id": 4,
+      "name": "Jane Customer",
+      "email": "customer@example.com",
+      "password": "$2b$10$qNm5GXvDvC0i1E3s06ciuudgLc2L1Iu.JbyOlKQ589jhokX/uy37K",
+      "role": "customer",
+      "is_available": 0,
+      "is_onboarded": 0,
+      "phone": null,
+      "address": null,
+      "created_at": "2026-02-01 14:19:59"
+    }
+  ]
+}
